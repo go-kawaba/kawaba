@@ -108,3 +108,12 @@ header {
 .show {
     display: block;
 }
+
+
+/* translateable */
+.tlable {
+    color: black;
+    background: #f7e5a4;
+    padding: 4px;
+    border-radius: 5px;
+}
