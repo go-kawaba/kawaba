@@ -15,12 +15,13 @@ h1 {
 
 h2 {
     color: #f4d35e;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 p {
     color: #faf0ca;
-    font-size: 14pt;
+    font-size: 16pt;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,11 +36,13 @@ a:hover {
 }
 
 footer {
+    font-size: 16pt;
     position: absolute;
     bottom: 0;
 }
 
 .lessonnav {
+    font-size: 16pt;
     width: 95vw;
     display: flex;
     flex-direction: row;
