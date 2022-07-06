@@ -104,6 +104,9 @@ header {
 .dropdown-content a:hover {
     background-color: #0d3b70;
 }
+.show {
+    display: block;
+}
 
 /* translateable */
 .tlable {
