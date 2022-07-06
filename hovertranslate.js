@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
         tlables[i].addEventListener("mouseenter", () => {
           tlations[i].style.display = "inherit";
         });
+        tlables[i].addEventListener("click", () => {
+          tlations[i].style.display = "inherit";
+        });
         tlables[i].addEventListener("mouseleave", () => {
           tlations[i].style.display = "none";
         });
