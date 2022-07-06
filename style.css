@@ -117,3 +117,17 @@ header {
     padding: 4px;
     border-radius: 5px;
 }
+
+.lessonnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nextlesson {
+    padding-top: 50px;
+    
+}
+
+.prevlesson {
+    padding-top: 50px;
+}
