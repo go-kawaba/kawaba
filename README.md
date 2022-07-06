@@ -5,20 +5,17 @@ https://alexburneikis.github.io/kawaba/
 ### Single word:
 ```
 <p>
-  The quick brown <span class=tlable>fox<span class="tlation">xof</span></span> jumped over the lazy dog
+  The quick brown <span class=tlt>{fox|xof}</span> jumped over the lazy dog
 <p>
 ```
 This example would create a paragraph where the translation for "fox" would be shown in the hovering box as "xof"
-
-.tlable is the "translatable" or "fox"
-.tlation is the "translation" or "xof"
 
 ### Multiple words:
 ```
 <p>
   <span class="ksentence">
-    <span class="tlable">Hello<span class="tlation">olleh</span></span> 
-    <span class="tlable">world<span class="tlation">dlrow</span></span>
+    <span class="tlt">{Hello|olleh}</span>
+    <span class="tlt">{world|dlrow)</span>
     !
   </span>
 <p>
