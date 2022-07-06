@@ -39,6 +39,7 @@ footer {
     font-size: 16pt;
     position: absolute;
     bottom: 0;
+    width: 95vw;
 }
 
 .lessonnav {
