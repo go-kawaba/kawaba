@@ -109,7 +109,6 @@ header {
     display: block;
 }
 
-
 /* translateable */
 .tlable {
     color: black;
@@ -123,9 +122,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .nextlesson {
     padding-top: 50px;
-    
 }
 
 .prevlesson {
