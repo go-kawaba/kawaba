@@ -12,6 +12,7 @@ h1 {
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
+
 h2 {
     color: #f4d35e;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +77,7 @@ header {
 /* Rotate last bar */
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .dropdown {
