@@ -21,3 +21,5 @@ This example would create a paragraph where the translation for "fox" would be s
 <p>
 ```
 This example would create a paragraph where the translation for "Hello world!" would be shown as two different words in seperate hovering boxes as "olleh" and "dlrow" respectively.
+
+If you are going to create a line with multiple words that have seperate translations make sure to enclose them in ksentence, otherwise it might look a bit weird
