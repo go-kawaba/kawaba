@@ -22,14 +22,22 @@ document.addEventListener("DOMContentLoaded", () => {
       for (let i = 0; i < tlables.length; i++) {
         tlables[i].addEventListener("mouseenter", () => {
           tlations[i].style.display = "inherit";
+          tlables[i].style.background = "rgba(0,0,0,0.2)";
         });
         tlables[i].addEventListener("click", () => {
           tlations[i].style.display = "inherit";
+          tlables[i].style.background = "rgba(0,0,0,0.2)";
         });
+        window.addEventListener("click", (event) => {
+          if (!(tlables[i].contains(event.target))) {
+            tlations[i].style.display = "none";
+            tlables[i].style.background = "";
+          }
+        })
         tlables[i].addEventListener("mouseleave", () => {
           tlations[i].style.display = "none";
+          tlables[i].style.background = "";
         });
       }
     }
   });
-  
