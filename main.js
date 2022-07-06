@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
       "<span class='tlation'>" +
       secondContent +
       "</span></span>";
-    console.log(tlts[i]);
   }
   let tlables = document.querySelectorAll("span.tlable");
   let tlations = document.querySelectorAll("span.tlation");
