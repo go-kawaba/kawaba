@@ -17,26 +17,26 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       tlts[i].innerHTML = output
   
-      let tlables = document.querySelectorAll("span.tlable");
-      let tlations = document.querySelectorAll("span.tlation");
-      for (let i = 0; i < tlables.length; i++) {
-        tlables[i].addEventListener("mouseenter", () => {
-          tlations[i].style.display = "inherit";
-          tlables[i].style.background = "rgba(0,0,0,0.2)";
+      let translateables = document.querySelectorAll("span.tlable");
+      let translations = document.querySelectorAll("span.tlation");
+      for (let i = 0; i < translateables.length; i++) {
+        translateables[i].addEventListener("mouseenter", () => {
+          translations[i].style.display = "inherit";
+          translateables[i].style.background = "rgba(0,0,0,0.2)";
         });
-        tlables[i].addEventListener("click", () => {
-          tlations[i].style.display = "inherit";
-          tlables[i].style.background = "rgba(0,0,0,0.2)";
+        translateables[i].addEventListener("click", () => {
+          translations[i].style.display = "inherit";
+          translateables[i].style.background = "rgba(0,0,0,0.2)";
         });
         window.addEventListener("click", (event) => {
-          if (!(tlables[i].contains(event.target))) {
-            tlations[i].style.display = "none";
-            tlables[i].style.background = "";
+          if (!(translateables[i].contains(event.target))) {
+            translations[i].style.display = "none";
+            translateables[i].style.background = "";
           }
         })
-        tlables[i].addEventListener("mouseleave", () => {
-          tlations[i].style.display = "none";
-          tlables[i].style.background = "";
+        translateables[i].addEventListener("mouseleave", () => {
+          translations[i].style.display = "none";
+          translateables[i].style.background = "";
         });
       }
     }
