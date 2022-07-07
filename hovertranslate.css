@@ -5,6 +5,7 @@
 .en {
     display: none;
     position:absolute;
+    -webkit-transform: translateY(90%);
     transform: translateY(90%);
     z-index: 1;
     color: black;
