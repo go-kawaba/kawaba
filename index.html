@@ -3,7 +3,9 @@
 <head>
   <title>kawaba</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="hovertranslate.css" />
   <script src="main.js"></script>
+  <script src="hovertranslate.js"></script>
 </head>
 
 <body>
@@ -30,7 +32,7 @@
       the basics.
     </p>
     <p>
-      Hover over this word: "<span class="tlt">{pe|translation}</span>". Words in kawaba
+      Hover over this word: "<span class="tlt">{pe|(TRANSLATION)}</span>". Words in kawaba
       will be written this way, and you can hover over them to check the
       definition.
     </p>
@@ -40,28 +42,23 @@
       the start of this sentence:
     </p>
     <p>
-    <span class="ksentence">
-        <span class="tlt">{&#9733|SENTENCE}</span>
-        <span class="tlt">{kawaba|language of parts}</span>
-        <span class="tlt">{na|TOPIC MARKER}</span>
-        <span class="tlt">{ga|you}</span>
-        <span class="tlt">{ne|SUBJECT MARKER}</span>
-        <span class="tlt">{hon|learn}</span>
-        <span class="tlt">{min!|IMPERATIVE MARKER}</span>
-    </span>
+    
+      <span class="tlt">{&#9733|(SENTENCE)} {kawaba|language of parts} {na|TOPIC MARKER} {ga|you} {ne|SUBJECT MARKER} {hon|learn} {min!|IMPERATIVE MARKER}</span>
+    
     </p>
     <p>
       This whole sentence is translated, but if you hover over the individual
       words, you also get to see their translations too.
     </p>
     <p>
-      And with that, we start the course. <span class="tlt">{honpe!|translation}</span>
+      And with that, we start the course. <span class="tlt">{honpe!|(TRANSLATION)}</span>
     </p>
+  </div>
+  <footer>
+    <div class="lessonnav">
     <p class="nextlesson">
       Get started with <a href="pages/Lesson1.html">Lesson 1!</a>
     </p>
   </div>
-  <footer>
-    <p>&copy; 2022 kawaba</p>
   </footer>
 </body>

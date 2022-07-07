@@ -15,12 +15,13 @@ h1 {
 
 h2 {
     color: #f4d35e;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 p {
     color: #faf0ca;
-    font-size: 14pt;
+    font-size: 16pt;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,11 +36,19 @@ a:hover {
 }
 
 footer {
-    text-align: right;
-    position: absolute;
+    font-size: 16pt;
+    position: fixed;
     bottom: 0;
-    right: 0;
-    padding-right: 5vw;
+    background: #0d3b66;
+}
+
+.lessonnav {
+    font-size: 16pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    max-width: 900px;
 }
 
 header {
@@ -65,8 +74,8 @@ header {
 
 /* Rotate first bar */
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 11px) rotate(-45deg) ;
 }
 
 /* Fade out the second bar */
@@ -76,8 +85,8 @@ header {
 
 /* Rotate last bar */
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: translate(0, -11px) rotate(45deg) ;
+    transform: translate(0, -11px) rotate(45deg);
 }
 
 .dropdown {
@@ -106,47 +115,4 @@ header {
 }
 .show {
     display: block;
-}
-
-/* translateable */
-.tlable {
-    color: black;
-    background: #f7e5a4;
-    padding: 4px;
-    border-radius: 5px;
-}
-
-/* translation */
-.tlation {
-    display: none;
-    position:absolute;
-    transform: translateY(90%);
-    z-index: 1;
-    color: black;
-    background: #f7e5a4;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
-    padding: 4px;
-    border-radius: 5px;
-}
-
-.lessonnav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nextlesson {
-    padding-top: 50px;
-}
-
-.prevlesson {
-    padding-top: 50px;
-}
-
-.ksentence {
-    background: #f7e5a4;
-    height: 14pt;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 5px;;
 }

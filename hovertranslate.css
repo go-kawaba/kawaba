@@ -1,0 +1,28 @@
+/* translateable */
+.tlable {
+    color: black;
+    background: #f7e5a4;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* translation */
+.tlation {
+    display: none;
+    position:absolute;
+    transform: translateY(90%);
+    z-index: 1;
+    color: black;
+    background: #f7e5a4;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.tlt {
+    background: #f7e5a4;
+    height: 14pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;;
+}
