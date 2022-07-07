@@ -9,16 +9,16 @@ document.addEventListener("DOMContentLoaded", () => {
         word = word.replace("{", "");
         word = word.replace("}", "");
         let wordt = word.split("|");
-        output += "<span class='tlable'>";
+        output += "<span class='ka'>";
         output += wordt[0];
-        output += "<span class='tlation'>";
+        output += "<span class='en'>";
         output += wordt[1];
         output += "</span></span>";
       }
       tlts[i].innerHTML = output
   
-      let translateables = document.querySelectorAll("span.tlable");
-      let translations = document.querySelectorAll("span.tlation");
+      let translateables = document.querySelectorAll("span.ka");
+      let translations = document.querySelectorAll("span.en");
       for (let i = 0; i < translateables.length; i++) {
         translateables[i].addEventListener("mouseenter", () => {
           translations[i].style.display = "inherit";
