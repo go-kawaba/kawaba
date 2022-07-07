@@ -37,17 +37,18 @@ a:hover {
 
 footer {
     font-size: 16pt;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 95vw;
+    background: #0d3b66;
 }
 
 .lessonnav {
     font-size: 16pt;
-    width: 95vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 95vw;
+    max-width: 900px;
 }
 
 header {
