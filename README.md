@@ -1,5 +1,5 @@
 # kawaba
-https://go-kawaba.github.io/kawaba/index.html
+https://go-kawaba.github.io/kawaba
 
 ## Creating Translations
 ### Single word:
@@ -14,8 +14,10 @@ This example would create a paragraph where the translation for "fox" would be s
 ```
 <p>
   <span class="tlt">
-    {Hello|olleh} {world!|dlrow}!
+    {Hello |olleh} {world!|dlrow}!
   </span>
 <p>
 ```
 This example would create a paragraph where the translation for "Hello world!" would be shown as two different words in seperate hovering boxes as "olleh" and "dlrow" respectively.
+
+To add spacing notice that I placed a space after Hello inside of the brackets, this is where the space goes :)
