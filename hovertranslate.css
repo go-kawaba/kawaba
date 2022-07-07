@@ -1,8 +1,5 @@
 /* translateable */
 .tlable {
-    color: black;
-    background: #f7e5a4;
-    padding: 4px;
     border-radius: 5px;
 }
 
@@ -20,9 +17,9 @@
 }
 
 .tlt {
+    color: black;
     background: #f7e5a4;
     height: 14pt;
-    padding-top: 4px;
-    padding-bottom: 4px;
     border-radius: 5px;;
+    padding: 4px;
 }
