@@ -1,5 +1,5 @@
 # kawaba
-https://alexburneikis.github.io/kawaba/
+https://go-kawaba.github.io/kawaba/index.html
 
 ## Creating Translations
 ### Single word:
