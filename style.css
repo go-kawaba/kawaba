@@ -166,6 +166,10 @@ table tr:first-child td {
     border-right: none;
 }
 
+table tr:first-child td:first-child {
+    border: none;
+}
+
 td {
     padding: 4px 20px;
 }
