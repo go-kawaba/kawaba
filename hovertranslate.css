@@ -1,9 +1,11 @@
-.ka {
+/* original text */
+.og {
     border-radius: 5px;
 }
 
-.en {
-    display: none;
+/* translated text */
+.tl {
+    display: none; /* its hidden by default */
     position:absolute;
     -webkit-transform: translateY(90%);
     transform: translateY(90%);
@@ -15,6 +17,8 @@
     border-radius: 5px;
 }
 
+/* format the background of the original text */
+/* this class is the comtainer for the og and tl classes */
 .tlt {
     color: black;
     background: #f7e5a4;
