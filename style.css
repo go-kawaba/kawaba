@@ -145,3 +145,22 @@ header {
     background-color: #196bc9;
     cursor: pointer;
 }
+
+table {
+    background-color: #faf0ca;
+    border-spacing: 0;
+    border-collapse: collapse; 
+}
+
+table td:first-child {
+    background-color: #f4d35e; 
+    border-right: 1px solid black;
+}
+table tr:first-child td {
+    background-color: #f4d35e; 
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 4px 20px;
+}
