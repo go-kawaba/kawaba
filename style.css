@@ -154,13 +154,18 @@ table {
 
 table td:first-child {
     background-color: #f4d35e; 
+}
+table td {
     border-right: 1px solid black;
 }
 table tr:first-child td {
     background-color: #f4d35e; 
     border-bottom: 1px solid black;
+    border-right: none;
 }
-
 td {
     padding: 4px 20px;
+}
+table td:last-child {
+    border-right: black; 
 }
