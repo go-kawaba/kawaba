@@ -162,12 +162,12 @@ table td:first-child {
 }
 
 table td {
-    border-right: 1px solid black;
+    border-right: 1px solid grey;
 }
 
 table tr:first-child td {
     background-color: #f4d35e; 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     border-right: none;
 }
 
@@ -177,6 +177,8 @@ table tr:first-child td:first-child {
 
 td {
     padding: 4px 20px;
+    font-size: 12pt;
+    font-family: 'Noto Serif';
 }
 
 table td:last-child {
