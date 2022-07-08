@@ -40,6 +40,10 @@ a:hover {
     text-decoration: bold;
 }
 
+#content {
+    margin-bottom: 100px;
+}
+
 footer {
     font-size: 16pt;
     position: fixed;
