@@ -19,6 +19,11 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+    color: #f4d35e;
+    font-family: 'Roboto', sans-serif
+}
+
 p {
     color: #faf0ca;
     font-size: 16pt;
