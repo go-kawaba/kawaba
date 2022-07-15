@@ -220,3 +220,33 @@ ul.dashed>li:before {
     content: "-";
     text-indent: -5px;
 }
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  outline: none;
+  font-size: 15px;
+    
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #faf0ca;
+    font-size: xx-large;
+    background-color: #054a8a;
+    border-width: 0;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    margin: 75px auto;
+}
+
+.active, .collapsible:hover {
+    background-color: #196bc9;
+    cursor: pointer;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
