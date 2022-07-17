@@ -221,32 +221,65 @@ ul.dashed>li:before {
     text-indent: -5px;
 }
 
-.collapsible {
-  cursor: pointer;
-  padding: 18px;
-  outline: none;
-  font-size: 15px;
-    
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    color: #faf0ca;
-    font-size: xx-large;
-    background-color: #054a8a;
-    border-width: 0;
-    border-radius: 10px;
-    width: 100%;
-    display: inline-block;
-    margin: 75px auto;
+
+/* collapsibles */
+root {
+  font-family: 'Noto Serif';
 }
 
-.active, .collapsible:hover {
-    background-color: #196bc9;
-    cursor: pointer;
+div.collapsible-container {
+  display: flex;
+  flex-wrap: nowrap
 }
+  div.collapsible-container > details {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
 
-.content {
-  padding: 0 18px;
-  display: none;
+
+details {
+  background-color: #faf0ca;
+    border: 1px solid #0d3b66;
   overflow: hidden;
-  background-color: #f1f1f1;
+}
+details[open] {
+  background-color: skyblue;
+}
+
+  details > summary {
+    color: black;
+    padding: 1em;
+    cursor: pointer;
+  }
+  details > summary:hover {
+    background-color: skyblue;
+  }
+  details > summary:active {
+    background-color: yellow;
+  }
+    details > summary::before {
+      display: inline;
+    }
+    details[open] > summary::before {
+    
+    }
+    details:not([open]) > summary::before {
+      
+    }
+  
+  details > summary + div {
+    background-color: #0d3b66;
+    padding: 0.5em;
+  }
+
+@media screen and (min-width: 768px) {
+  details:first-child {
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+  details:last-child {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
 }
