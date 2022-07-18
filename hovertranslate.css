@@ -7,8 +7,8 @@
 .tl {
     display: none; /* its hidden by default */
     position:absolute;
-    -webkit-transform: translateY(90%);
-    transform: translateY(90%);
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
     z-index: 1;
     color: black;
     background: #f7e5a4;
