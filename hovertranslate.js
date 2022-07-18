@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let tlts = document.querySelectorAll("span.tlt");
   for (let i = 0; i < tlts.length; i++) {
-    let input = tlts[i].textContent;
+    let input = tlts[i].innerHTML;
     let output = "";
     let words = input.split("} {");
     for (let i = 0; i < words.length; i++) {
